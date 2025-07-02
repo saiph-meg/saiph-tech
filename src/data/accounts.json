@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Sed vestibulum",
+    "profiles": [
+      {
+        "id": 1,
+        "main": true
+      },
+      {
+        "id": 2,
+        "main": false
+      },
+      {
+        "id": 4,
+        "main": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Aenean facilisis",
+    "profiles": [
+      {
+        "id": 3,
+        "main": true
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Proin scelerisque",
+    "profiles": [
+      {
+        "id": 5,
+        "main": true
+      },
+      {
+        "id": 1,
+        "main": false
+      }
+    ]
+  }
+]

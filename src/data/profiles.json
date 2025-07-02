@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Farhan Daugherty",
+    "mail": "farhan.daugherty@example.com",
+    "address": {
+      "city": "London",
+      "address": "19 Faraday Rd",
+      "zip": "W10 5NZ",
+      "country": "UK"
+    },
+    "telephone": "+44 1632 960421"
+  },
+  {
+    "id": 2,
+    "name": "Alistair Randall",
+    "mail": "alistair.randall@example.com",
+    "address": {
+      "city": "PLYMOUTH",
+      "address": "31 Church Street",
+      "zip": "PL60 1DS",
+      "country": "UK"
+    },
+    "telephone": "+44 1632 960912"
+  },
+  {
+    "id": 3,
+    "name": "Samuel Moore",
+    "mail": "samuel.moore@example.com",
+    "address": {
+      "city": "SWANSEA",
+      "address": "17 Park Road",
+      "zip": "SA86 3MV",
+      "country": "UK"
+    },
+    "telephone": "+44 1632 960737"
+  },
+  {
+    "id": 4,
+    "name": "Monica Chambers",
+    "mail": "monica.chambers@example.com",
+    "address": {
+      "city": "DONCASTER",
+      "address": "77 King Street",
+      "zip": "DN31 3PW",
+      "country": "UK"
+    },
+    "telephone": "+44 1632 960397"
+  },
+  {
+    "id": 5,
+    "name": "Brianna Butler",
+    "mail": "brianna.butler@example.com",
+    "address": {
+      "city": "CROYDON",
+      "address": "63 School Lane",
+      "zip": "CR74 9GU",
+      "country": "UK"
+    },
+    "telephone": "+44 1632 960934"
+  }
+]

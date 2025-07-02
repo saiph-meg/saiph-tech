@@ -1,0 +1,73 @@
+{
+  "name": "saiph",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint --fix .",
+    "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
+    "prepare": "husky install",
+    "storybook-build-and-run": "build-storybook && start-storybook -s ./public",
+    "storybook": "start-storybook -p 6006 -s ./public",
+    "build-storybook": "build-storybook"
+  },
+  "license": "MIT",
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "npm run lint",
+      "npm run format"
+    ]
+  },
+  "cacheDirectories": [
+    ".next/cache"
+  ],
+  "dependencies": {
+    "@4i4/multi-request": "^1.0.1",
+    "@4i4/registry": "^1.0.0",
+    "@4i4/theme-registry": "^1.0.0",
+    "@4i4/theme-registry-webpack-plugin": "^1.0.5",
+    "@ffw/next-drupal-components": "^0.2.2",
+    "@ffw/nxd": "^0.0.14",
+    "@hookform/error-message": "^2.0.1",
+    "@hookform/resolvers": "^3.1.1",
+    "@reduxjs/toolkit": "^1.9.5",
+    "chart.js": "^4.3.0",
+    "classnames": "^2.3.2",
+    "iron-session": "^6.3.1",
+    "next": "^12.3.4",
+    "next-redux-wrapper": "^8.1.0",
+    "qs": "^6.11.2",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.45.0",
+    "react-redux": "^8.1.0",
+    "react-scroll": "^1.8.9",
+    "react-timeago": "^7.1.0",
+    "styled-components": "^6.0.0-rc.3",
+    "styled-normalize": "^8.0.7",
+    "swr": "^2.1.5",
+    "url-parse": "^1.5.10",
+    "yup": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/formidable": "^2.0.6",
+    "@types/node": "^20.3.1",
+    "@types/react": "^18.2.13",
+    "@types/react-dom": "^18.2.6",
+    "@types/react-timeago": "^4.1.3",
+    "@types/styled-components": "^5.1.26",
+    "cross-env": "^7.0.3",
+    "eslint": "8.22.0",
+    "eslint-config-next": "12.3.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.2",
+    "prettier": "^2.8.8",
+    "string-replace-loader": "^3.1.0",
+    "typescript": "4.8.3"
+  }
+}
