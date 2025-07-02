@@ -11,8 +11,8 @@
     "id": 2,
     "date": "2023-05-20T12:28:21",
     "account": 1,
-    "title": "Aenean facilisis",
-    "description": "Duis lacinia nibh sit amet libero tincidunt, vitae elementum dui tempus. Mauris dui quam, consectetur et elit id, lacinia pharetra turpis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam dapibus ipsum enim, nec lobortis lorem consequat ac. Pellentesque vehicula sit amet massa a aliquet. Cras eget efficitur odio. Fusce laoreet orci rutrum lobortis iaculis. Etiam eget sodales magna.",
+    "title": "Dormant Account Activity",
+    "description": "This alert is triggered when there is activity on an account that has been dormant for a long period of time. It helps to identify potential unauthorized access or reactivation of old accounts.",
     "status": "closed"
   },
   {
@@ -27,8 +27,8 @@
     "id": 4,
     "date": "2023-06-20T13:13:43",
     "account": 2,
-    "title": "Nulla facilisi",
-    "description": "Vivamus vitae augue lorem. Maecenas sodales aliquet elit id venenatis. Donec tellus justo, iaculis vitae erat eu, facilisis convallis eros. Suspendisse iaculis, orci eu commodo egestas, purus metus tincidunt lectus, quis sollicitudin justo nisi ut nunc. Aliquam erat volutpat. Etiam quis ex efficitur, aliquam dolor id, tristique turpis. Ut posuere tortor non efficitur facilisis. Praesent at tristique velit, non sodales nibh. Suspendisse at diam fermentum, finibus odio ut, blandit arcu. Cras laoreet pellentesque est, sit amet malesuada justo rutrum quis. Vestibulum lacinia nibh at vestibulum euismod. Proin lacinia risus sit amet lorem facilisis scelerisque.",
+    "title": "Multiple deposits in quick succession",
+    "description": "This alert is triggered when multiple deposits are made in a short period of time. It helps to monitor unusual activity that may indicate fraud or system issues.",
     "status": "processing"
   },
   {
